@@ -3,6 +3,9 @@
 
 /**  @type {import('next').NextConfig} */
 const nextConfig = {
+  output: 'export',
+  trailingSlash: true,
+  images: { unoptimized: true },
   env: {
     baseURL: process.env.BASE_URL,
     REDIRECT_URI: process.env.REDIRECT_URI,
