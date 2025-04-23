@@ -5,7 +5,6 @@
 const nextConfig = {
   output: 'export',
   trailingSlash: true,
-  images: { unoptimized: true },
   env: {
     baseURL: process.env.BASE_URL,
     REDIRECT_URI: process.env.REDIRECT_URI,
@@ -17,6 +16,7 @@ const nextConfig = {
     // clientSecret: process.env.clientSecret,
   },
   images: {
+    unoptimized: true,
     remotePatterns: [
       {
         protocol: "https",
