@@ -23,7 +23,7 @@ export default function HomePage() {
   return (
     <>
       <CustomHead
-        title="Me.Cap"
+        title="Arbinox"
         image="/images/fav_icon.svg"
         video=""
         isVideo={false}

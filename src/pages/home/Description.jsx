@@ -109,7 +109,8 @@ export default function Client() {
             display: "flex",
             alignItems: "center",
             justifyContent: "center",
-            padding: "20px",
+            paddingTop: "20px",
+            paddingBottom: "20px",
             border: "1px solid blue",
             borderRadius: "10px",
             margin: "auto",
@@ -120,7 +121,8 @@ export default function Client() {
             WebkitBackdropFilter: "blur(10px)",
           }}
           >
-            Arbinox is a cutting-edge platform built for crypto traders to
+           <p style={{padding: "0px 20px"}}>
+           Arbinox is a cutting-edge platform built for crypto traders to
             leverage arbitrage opportunities across multiple centralized
             exchanges (CEXs). Our automated system streamlines the trading
             process, enabling users to quickly and efficiently profit from price
@@ -129,6 +131,7 @@ export default function Client() {
             times. The platform features intuitive tools, live market insights,
             and an easy-to-use interface to help you trade smarter and more
             effectively.
+           </p>
           </h2>
         </Box>
       </Container>

@@ -77,7 +77,7 @@ export default function Banner() {
   const router = useRouter();
 
   return (
-    <BannerComponent className="">
+    <div style={{marginTop: "70px"}}> 
       {/* <video autoPlay loop muted playsInline preload="auto">
         <source src="images/banner_home.webm" type="video/mp4" />
         Your browser does not support the video tag.
@@ -92,6 +92,7 @@ export default function Banner() {
           flexDirection: "row-reverse",
           justifyContent: "space-evenly",
           alignItems: "center",
+          backgroundColor: "transparent !important",
         }}
       >
         <div
@@ -104,9 +105,9 @@ export default function Banner() {
           {/* <img src="./SlowAnim.gif" style={{height:"600px", width:"600px"}} alt="notcoming" /> */}
         </div>
 
-        <div className="BannerText">
-          <Container>
-            <Box
+        <div className="BannerText1" >
+          <Container >
+            <div
               align="start"
               className="contentBx"
               style={{ zIndex: "3", position: "relative" }}
@@ -141,10 +142,10 @@ export default function Banner() {
               >
                 Get Started
               </Button>
-            </Box>
+            </div>
           </Container>
         </div>
       </div>
-    </BannerComponent>
+    </div>
   );
 }

@@ -1619,6 +1619,10 @@ figure {
   width: 54px !important;
 }
 
+/* My Chagnes  */
+.BannerText1{
+  width: 50%;
+}
 /* Add these styles in your CSS file or MUI's styled component */
 .orderDefault {
   order: 1;
@@ -1678,6 +1682,9 @@ figure {
 }
 
 @media (max-width: 767px) {
+  .BannerText1{
+    width: 100%;
+  }
   .mainiframeBox {
     width: 90%;
   }
@@ -2205,6 +2212,9 @@ figure {
   }
 }
 @media (max-width: 991px) {
+  .TopBanner{
+    flex-wrap: wrap;
+  }
   .slick-center {
     border-left: 1px solid transparent !important;
   }
@@ -2244,6 +2254,10 @@ figure {
   }
 }
 @media (max-width: 767px) {
+  .displayStart, .displayEnd{
+    display: flex;
+    justify-content: center;
+  }
   .featuresRightBox {
     width: 50%;
   }
