@@ -408,33 +408,33 @@ const Footer = () => {
             <Box className="displayStart" style={{ gap: "30px" }}>
               {/* <IconButton target="_blank" className="socialButton">
                 <img
-                  src="/images/Social/facebook.svg"
+                  // src="/images/Social/facebook.svg"
                   alt="Image"
                   className="socialButton"
                 />
               </IconButton> */}
-              {/* <IconButton
-                target="_blank"
-                href="https://x.com/MECAP_DSC"
+              <IconButton
+                // target="_blank"
+                // href="https://x.com/MECAP_DSC"
                 className="socialButton"
               >
                 <img src="/images/Social/twitter.svg" alt="Image" />
-              </IconButton> */}
-              {/* <IconButton
-                target="_blank"
-                href="https://www.instagram.com/mecapdsc/?utm_source=ig_web_button_share_sheet"
+              </IconButton>
+              <IconButton
+                // target="_blank"
+                // href="https://www.instagram.com/mecapdsc/?utm_source=ig_web_button_share_sheet"
                 className="socialButton"
               >
                 <img src="/images/Social/insta.svg" alt="Image" />
-              </IconButton> */}
+              </IconButton>
 
-                {/* <IconButton
-                  target="_blank"
-                  href="https://t.me/+8_3Ixon23pswZmQ8"
+                <IconButton
+                  // target="_blank"
+                  // href="https://t.me/+8_3Ixon23pswZmQ8"
                   className="socialButton"
                 >
                   <FaTelegramPlane style={{ color: "#fff", fontSize: "27px" }} />
-                </IconButton> */}
+                </IconButton>
                 {/* <img src="/images/Social/insta.svg" alt="Image" /> */}
               {/* <IconButton target="_blank" className="socialButton">
                 <img src="/images/Social/linkdin.svg" alt="Image" />
